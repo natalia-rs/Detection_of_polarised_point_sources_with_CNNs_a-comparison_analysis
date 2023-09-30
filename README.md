@@ -5,4 +5,8 @@ The detection and subtraction of point sources in the microwave sky are of param
 1. Generate the flux values and the number of point sources for the training dataset, located in TFM/Training data/Number_Counts/Src/Flux_Density_Distribution.ipynb
 2. Simulate the CMB signal, the noise and the point sources for the different polarisation maps for the training dataset, along with the labels map, located in TFM/Training data/Simulation/Simulation_27GHz.ipynb
 3. Divide the polarisation training maps into patches in TFM/Training data/Patching/Patching_training.ipynb
-4. Repeat steps 1, 2 and 3 for another simulated map -*Observation map*- in TFM/Observation data  
+4. Repeat steps 1, 2 and 3 for another simulated map -*Observation map*- in TFM/Observation data
+5. Generate the simulated foreground maps and patch them in TFM/Foreground data
+6. Run the CNN network for a polarisation representation, for example, start with B, which is in TFM/models/B/B_CNN.ipynb. Repeat the process for all of the polarisation representations
+7. Go to the *Analysis* folder inside each polarisation representation and run the scripts *Metrics* and *Metrics_foregrounds* to obtain the completeness and reliabilities for all thresholds
+ 
