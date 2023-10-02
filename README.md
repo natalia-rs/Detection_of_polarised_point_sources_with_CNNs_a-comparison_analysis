@@ -9,4 +9,8 @@ The detection and subtraction of point sources in the microwave sky are of param
 5. Generate the simulated foreground maps and patch them in TFM/Foreground data
 6. Run the CNN network for a polarisation representation, for example, start with B, which is in TFM/models/B/B_CNN.ipynb. Repeat the process for all of the polarisation representations
 7. Go to the *Analysis* folder inside each polarisation representation and run the scripts *Metrics* and *Metrics_foregrounds* to obtain the completeness and reliabilities for all thresholds
- 
+8. You can also obtain a visualisation for the patches containing the brightest point sources for the different maps in TFM/models/B/Analysis/Brightest_PS_patches_foreg.ipynb
+9. Compare the metrics for the different polarisation representations in TFM/models/All observables metrics
+10. In TFM/More plots you can obtain several useful visualisations, such as point source sky distribution, point source appearance or point source predictions for the 5th, 100th and 500th brightest point source
+
+For any doubt, contact Natalia Rehak at rehaknatalia@gmail.com
