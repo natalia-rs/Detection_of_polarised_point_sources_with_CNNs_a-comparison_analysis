@@ -13,4 +13,5 @@ The detection and subtraction of point sources in the microwave sky are of param
 9. Compare the metrics for the different polarisation representations in TFM/models/All observables metrics
 10. In TFM/More plots you can obtain several useful visualisations, such as point source sky distribution, point source appearance or point source predictions for the 5th, 100th and 500th brightest point source
 
+There is an additional file called "Foreground.fits" that is not included in the code provided here because it is too heavy. It can be downloaded from the Planck Sky Model
 For any doubt, contact Natalia Rehak at rehaknatalia@gmail.com
